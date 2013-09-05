@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="100" height="15" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
   <image source="tmw_desert_spacing.png" width="265" height="199"/>
  </tileset>
@@ -16,22 +16,28 @@
    </properties>
   </tile>
  </tileset>
- <layer name="Background" width="50" height="50">
+ <tileset firstgid="51" name="ortho-test2" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="ortho-test2.png" trans="ff00ff" width="640" height="400"/>
+ </tileset>
+ <tileset firstgid="279" name="tiles" tilewidth="16" tileheight="16" spacing="1" margin="1">
+  <image source="tiles.png" trans="ff00ff" width="256" height="256"/>
+ </tileset>
+ <layer name="Background" width="100" height="15">
   <data encoding="base64" compression="zlib">
-   eJztmmtOwzAMgAuIbVBgPCaeUsUEQ4Px6JF2NI7C0XCkVLKiprFdpwmsPz5VZYnjD9vVKq0qiqICanu9A+4j8OCco42Ju0b3S+AZeFNkBTyhM9aRfF5Q3KVzpgY4Zm3PG6IeDI+thewx1oNfj/eCNrOYrufDx0D1qFDc1yI8txtgAkwtM8K+jXNObJr/le9q1nwCZ8Dccu7U1neNmfdUyCnyOCHumRFzmgj2zf8ATb13weNmQG4J+RiugUOmh2/WteHm0PYckVArIjlfyyM1Uo9HAkPGkXqY7zxfgeuQcXa9r3Jj9MiL0SMvRo+8GD3yYvTIC67HHrCfIQeMHM3aI+A4Q0rkEcqxRGsWwGVCcF7m/gp5XHj2QM7frgf2T0XjQV0POf90ebh1a/s7Z22I/+4RWh/yCMXV6AlK/Fgemr3N8fDdt3n07VdOD0q9KPPRp1+5syStV24evj3c+lDnQ2NeOB4a86Ht0Wem+nhwe6Vv78fyKJU9KLOUqq98/c+ZBcmeHDy0Zim2h/TzWB7wXX5bot+KlPbeRxNT+rkEN+ai43kl6e/UGA/3XavxSPluyMW8O/4Cb8IJWw==
+   eJztmEEOgCAMBPmGmpCoJ/X//xMPJIQILbDRBnqYI9vKNm3FGmMsg9WxEexMLU4chFbPqB+yOBwnwaV+dIf3HeGt0heTYw5YBOQkDfNhrHhmag+tJ67tGE6tqx84qP1D55PyJ75ftM5AnakYUP8R0nt4ak5Jq5tR/Ei9W0jNE+3HQ8vO5GnZv8KzufejlBYVu5ZczuE9onSQ72eUbk6rJKc3rdLziO9H3eNoftzOlrJe
   </data>
  </layer>
- <objectgroup name="Objects" width="50" height="50">
+ <objectgroup name="Objects" width="100" height="15">
   <object name="SpawnPoint" x="80" y="299"/>
  </objectgroup>
- <layer name="Foreground" width="50" height="50">
+ <layer name="Foreground" width="100" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1sEJADAIA0A36f5bukQJqHefvIUErIKs9ylhsnSP7Qbgnk2/1IYbAAAAAAAAyGi0qgIv
+   eJzt1dEJgDAMBNBs0g3cLfv/+CVIMBolNUdzD0qFKpyNsSJEeLQ6QENq5rt7rJGcZXXDzPb64O13Rn+g9hhqrtk6vXfkX1MJMZ/NgpStmy9n5Buo5yliLvbBM69u268p4lTm1XWcxtVa5PlKKnP3p7vs+lZ/Lx7UXEREK9oB87cMJw==
   </data>
  </layer>
- <layer name="Meta" width="50" height="50">
+ <layer name="Meta" width="100" height="15">
   <data encoding="base64" compression="zlib">
-   eJztl2sOhCAMhL3Scv/Dbcz+abIgnT4omPkSotU+GClGr+vHRxyzhqwTjayxQkevZoaWjBrZ+Xt5pd2CjlwPWw1pa3sdiRvVjAR9X/XiK99XN02ce+ai1d7+Qwkhi8n8JlnNGzScjPa5ar+lqtYHqT/SgOYhhBBCCCH7kvHPFP3fUj0P6vDpqAadB6q/dx3xRZ/723RY+22kd2Q/+Wqo0oHMyRJjtSP7FelBNMfMP6pf0b2kZXcds36e1bfmG+XR+Fr2LWpn6tCQvc81veLt/VN0ePJ7dSBYNFtjdtARSaYO630LyJprfE4Y1FE7vnuDpyw=
+   eJztllkKgDAMRHslc//D+V9im2WyEHwggug4zcTGtWQ8wsMLUmsy0/Og5Pd5mZAHbefTPdLr07HmwdWaq2Fkvbtm1tWXFu33P2XdEiR7DRpNHhX+buxeKr0hZl3EfMzCMiNR+hwZ/x4WXxl09NSN6v82bR/S4r0h+prWt76kHtX9dvIvBbUvdN/DLfshOl+JXkUeFX0cPZ9QROaBqIFHS+tp17I8711/Nx2LLsrTn8edrnm8EdFAFg==
   </data>
  </layer>
 </map>

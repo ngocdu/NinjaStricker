@@ -22,6 +22,7 @@ private:
     HudLayer *_hud;
     
     int _numCollected;
+    bool _moveAble;
     
 public:
     // Method 'init' in cocos2d-x returns bool, instead of 'id' in cocos2d-iphone (an object pointer)
